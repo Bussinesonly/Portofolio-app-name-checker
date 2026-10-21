@@ -25,6 +25,8 @@ Gunakan `.xlsx` atau `.xls` berukuran maksimal 5 MB. Format minimum:
 
 `nomor_anggota` opsional. Di dashboard admin, pilih header yang sesuai sebelum pratinjau. Server kembali memvalidasi file, menolak baris kosong atau nama tidak valid, menghitung duplikat dalam file, dan melakukan satu operasi insert. Data lama tidak dihapus atau ditimpa otomatis.
 
+Administrator juga dapat menambahkan satu anggota melalui formulir **Tambah anggota** di dashboard. Formulir ini hanya tersedia setelah login admin dan setiap permintaan kembali diperiksa di server.
+
 ## Keamanan
 
 - Route publik mengembalikan hanya status dan satu nama yang cocok tepat. Nama ganda menghasilkan permintaan verifikasi tambahan.
